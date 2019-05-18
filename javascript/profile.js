@@ -5,19 +5,43 @@ window.onload = function () {
 
 function printMusProfileInfo(user) {
     document.getElementById('mus-info').innerHTML = `
-    <iframe id="mus-video" width="300" height="150" src="${user.video}" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h1 id="mus-name">${user.name}</h1>
-    <h2 id="mus-instruments">${user.instruments[0]}</h2>
-    <h3 id="mus-places">${user.places}</h3>
-    <img width="60" height="60" src="${user.photo}" alt="">
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-        agenda
-    </button>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterOffer">
-        fazer uma proposta
-    </button>
-    <p id="mus-description">${user.description}</p>
+    <div class="mus-video-div">
+        <iframe id="mus-video" class="mus-video" src="${user.video}" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="container my-3">
+        <div class="d-flex">
+            <div class="flex-fill">
+                <img class="mus-profile-img" src="${user.photo}" alt="">
+            </div>
+            <div class="flex-fill">
+                <h5 id="mus-name">${user.name}</h5>
+                <h6 class="text-muted text-capitalize mb-0" id="mus-instruments">${user.instruments[0]}</h6>
+                <p class="text-muted mt-0" id="mus-places">${user.places}</p>    
+            </div>
+        </div>              
+    </div>
+    <div class="container my-3">
+        <div class="d-flex">
+            <div class="flex-fill">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
+                    AGENDA
+                </button>
+            </div>
+            <div class="flex-fill">
+                <button type="button" class="btn btn-secondary btn-ligth-green" data-toggle="modal" data-target="#exampleModalCenterOffer">
+                    FAZER UMA PROPOSTA
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-3">
+        <div class="card bg-light mb-3>
+            <div class="card-body">
+                <p class="card-text p-2 mus-description">${user.description}</p>
+            </div>
+        </div>
+    </div>
     `;
     printMusNameAgenda(user.name);
     document.getElementById('btn-offer-login').addEventListener('click', loginAfterOffer);
