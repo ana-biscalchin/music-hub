@@ -1,21 +1,19 @@
+/* geral */
 body {
-  background-color: #EDEDED;
- 
+    background-color: #EDEDED;
 }
 
-
 .nav-header-bg {
-  background-color: #82cbab;
+    background-color: #82cbab;
 }
 
 .font-logo {
-  color: #1c1c1c;
+    color: #1c1c1c;
 }
 
 .logo-img-header {
-  
+    width: 15%;
 }
-
 
 /* home */
 

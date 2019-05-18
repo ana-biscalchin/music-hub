@@ -5,7 +5,7 @@ window.onload = function () {
 
 function printMusProfileInfo(user) {
     document.getElementById('mus-info').innerHTML = `
-    <iframe id="mus-video" width="560" height="315" src="${user.video}" frameborder="0"
+    <iframe id="mus-video" width="300" height="150" src="${user.video}" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <h1 id="mus-name">${user.name}</h1>
     <h2 id="mus-instruments">${user.instruments[0]}</h2>
