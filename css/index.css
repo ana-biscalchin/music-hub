@@ -15,9 +15,41 @@ body {
     width: 15%;
 }
 
+
+
 /* home */
 
+.menu-group {
+    display: flex;
+    justify-content: space-around
+}
 
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+
+.input-group-append {
+    position: absolute;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-search {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 25.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.mus-home {
+    background-color: #1c1c1c;
+}
 
 
 
