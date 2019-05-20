@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="../img/logo_music_hub.png">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap-4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -17,14 +16,19 @@
 </head>
 
 <body>
-
-    <header class="">
-        <ul class="nav justify-content-center">
-             <li class="nav-item">
-                  <a class="nav-link" href="#">MUSIC</a>
-            </li>
-        </ul>
+    <header class="container">
+        <img class="logo-img-header img-fluid" src="../img/logo_full.png" alt="">
     </header>
+    <section class="">
+        <div class="col text-center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-dark btn-color btn-login" href="#">Login</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-dark btn-color btn-register" href="#">Cadastrar</button>
+            </div>
+        </div>
+    </section>
     <section class="container">
         <form>
             <div class="form-group col align-self-center ">
@@ -35,17 +39,23 @@
                 <label for="input-password">Senha</label>
                 <input type="password" class="form-control" id="input-password">
             </div>
-            <button type="submit" class="btn btn-primary">Entrar</button>
+            <button type="submit" class="btn btn-sign">Entrar</button>
+
+            <div>
+                    <p id="invalid-email-password" class="alert-invalid"></p>
+                    <!-- <button type="button" class="btn btn-link" id="forget-password"> Esqueceu a senha? </button> -->
+                  </div>
+                  <button type="button" class="btn btn-block btn-google" id="google-button">Login com Google</button>
+                  <button type="button" class="btn btn-block btn-facebook" id="facebook-button">
+                    Login com Facebook
+                  </button>
+                  <a class="btn btn-link" href="register.html">
+                    Não tem conta? Cadastre-se
+                  </a>
+                </div>
         </form>
     </section>
-      
 
-    <!-- <section class="">
-        <div class="">
-        <button type="button" class="btn btn-dark btn-sm btn-color">Login</button>
-        <button type="button" class="btn btn-dark btn-sm btn-color">Cadastrar</button>
-    </div>
-    </section> -->
 
     <!-- <section class="container">
         <div class="container">

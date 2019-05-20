@@ -1,7 +1,8 @@
-geral
 body {
   background-color: #EDEDED;
+ 
 }
+
 
 .nav-header-bg {
   background-color: #82cbab;
@@ -12,14 +13,8 @@ body {
 }
 
 .logo-img-header {
-  width: 15%;
+  
 }
-
-
-
-
-
-
 
 
 /* home */
@@ -41,22 +36,27 @@ body {
 
 /* login */
 btn-color{
-  background: black;
+  background: #1c1c1c;
 }
-#font-logo{
-  color: #1c1c1c
-
+.btn-login, .btn-register{
+  margin: 0 15px;
 }
 
+.btn-sign{
+  background-color: #82cbab;
+}
+#input-email, #input-password{
+  border: none; 
+  border-bottom: 1px solid grey;
+}
 @media(min-width: 768px) {
 }
 @media(min-width: 992px) {
 }
 
-#input-email, #input-password{
-  border: none; 
-  border-bottom: 1px solid grey;
-}
+
+
+
 
 /* register */
 
