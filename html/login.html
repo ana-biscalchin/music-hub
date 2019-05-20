@@ -2,19 +2,77 @@
 <html lang="pt-BR">
 
 <head>
+    <title>Login</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../img/logo_music_hub.png">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap-4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../img/logo_music_hub.png">
-    <title>Login</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css" />
+
 </head>
 
 <body>
-    <header>
-        <h1 class="text-center"> Music Hub</h1>
+
+    <header class="">
+        <ul class="nav justify-content-center">
+             <li class="nav-item">
+                  <a class="nav-link" href="#">MUSIC</a>
+            </li>
+        </ul>
     </header>
     <section class="container">
+        <form>
+            <div class="form-group col align-self-center ">
+                <label for="input-email">Email</label>
+                <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group col align-self-center">
+                <label for="input-password">Senha</label>
+                <input type="password" class="form-control" id="input-password">
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+    </section>
+      
+
+    <!-- <section class="">
+        <div class="">
+        <button type="button" class="btn btn-dark btn-sm btn-color">Login</button>
+        <button type="button" class="btn btn-dark btn-sm btn-color">Cadastrar</button>
+    </div>
+    </section> -->
+
+    <!-- <section class="container">
+        <div class="container">
+            <form>
+
+                <div class="group">
+                    <label>Name</label>
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+
+                </div>
+
+
+                <div class="group">
+                    <label>Email</label>
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+
+                </div>
+            </form>
+    </section> -->
+
+    <!-- <section class="container">
+        <button type="button" class="btn btn-dark btn-sm btn-color">Login</button>
+        <button type="button" class="btn btn-dark btn-sm btn-color">Cadastrar</button>
         <form action="">
             <div class="form-group">
 
@@ -30,11 +88,21 @@
                     <label for="contact-password">Senha:</label>
                     <input id="contact-password" type="password" class="form-control" placeholder="Digite sua senha">
                 </div>
+                <button type="submit" class="btn btn-block btn-login" id="enter-button">Entrar</button>
+                <button type="button" class="btn btn-block btn-google" id="google-button">Login com Google</button>
+                <button type="button" class="btn btn-block btn-facebook" id="facebook-button">
+                    Login com
+                    Facebook
+                </button>
+                <a class="btn btn-link" href="register.html">
+                    Não tem conta? Cadastre-se
+                </a>
         </form>
-    </section>
+    </section> -->
     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
+    <script src="../css/index.css"></script>
 </body>
 
 </html>
