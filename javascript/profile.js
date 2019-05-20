@@ -4,6 +4,24 @@ window.onload = function () {
 };
 
 function printMusProfileInfo(user) {
+    let instruments = user.instruments;
+    user.instruments.forEach((element, index) => {
+        if (index === 0) {
+            instruments = element;
+        } else {
+            instruments += ' | ' + element;
+        }
+    });
+
+    let places = user.places;
+    user.places.forEach((element, index) => {
+        if (index === 0) {
+            places = element;
+        } else {
+            places += ', ' + element;
+        }
+    });
+    
     document.getElementById('mus-info').innerHTML = `
     <div class="mus-video-div">
         <iframe id="mus-video" class="mus-video" src="${user.video}" frameborder="0"
@@ -16,8 +34,8 @@ function printMusProfileInfo(user) {
             </div>
             <div class="flex-fill">
                 <h5 id="mus-name">${user.name}</h5>
-                <h6 class="text-muted text-capitalize mb-0" id="mus-instruments">${user.instruments[0]}</h6>
-                <p class="text-muted mt-0" id="mus-places">${user.places}</p>    
+                <h6 class="text-muted text-capitalize mb-0" id="mus-instruments">${instruments}</h6>
+                <p class="text-muted mt-0" id="mus-places">${places}</p>    
             </div>
         </div>              
     </div>
@@ -54,7 +72,6 @@ function printMusNameAgenda(name) {
 let userMusId = "m01";
 
 function getMusProfileInfofromDb() {
-    console.log('oi');
     database.ref('users_musicians/' + userMusId).once('value')
         .then(function (snapshot) {
             let user = snapshot.val();
