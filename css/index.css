@@ -50,7 +50,11 @@ body {
     color: #1c1c1c;
     background-color: #82cbab;
     border-color: #82cbab;
-    font-weight: 700;
+    font-weight: 600;    
+}
+
+.btn-font-size {
+    font-size: 0.9rem;
 }
 
 .mus-description {

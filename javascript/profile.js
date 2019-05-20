@@ -22,17 +22,15 @@ function printMusProfileInfo(user) {
         </div>              
     </div>
     <div class="container my-3">
-        <div class="d-flex">
-            <div class="flex-fill">
-                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
-                    AGENDA
-                </button>
-            </div>
-            <div class="flex-fill">
-                <button type="button" class="btn btn-secondary btn-ligth-green" data-toggle="modal" data-target="#exampleModalCenterOffer">
-                    FAZER UMA PROPOSTA
-                </button>
-            </div>
+        <div class="d-flex justify-content-end"">
+            
+            <button type="button" class="btn btn-dark mr-2 btn-font-size" data-toggle="modal" data-target="#exampleModalCenter">
+                AGENDA
+            </button>            
+            <button type="button" class="btn btn-secondary btn-ligth-green" data-toggle="modal" data-target="#exampleModalCenterOffer">
+                FAZER UMA PROPOSTA
+            </button>
+            
         </div>
     </div>
     <div class="container mb-3">
