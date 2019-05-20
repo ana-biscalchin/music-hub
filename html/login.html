@@ -6,16 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap-4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../img/logo_music_hub.png">
     <title>Login</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Music Hub</h1>
+    <header>
+        <h1 class="text-center"> Music Hub</h1>
+    </header>
+    <section class="container">
         <form action="">
+            <div class="form-group">
 
+                <label for="contact-email">E-mail:</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input id="contact-email" type="text" class="form-control" placeholder="Digite seu e-mail">
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="contact-password">Senha:</label>
+                    <input id="contact-password" type="password" class="form-control" placeholder="Digite sua senha">
+                </div>
         </form>
-    </div>
+    </section>
     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
