@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h1 class="text-center"> Music Hub</h1>
+        <img class="logo-img-header" src="../img/logo_full.png" alt="">
     </header>
     <section class="container">
         <form action="">
@@ -30,6 +30,16 @@
                     <label for="contact-password">Senha:</label>
                     <input id="contact-password" type="password" class="form-control" placeholder="Digite sua senha">
                 </div>
+                <button type="submit" class="btn btn-block btn-login" id="enter-button">Entrar</button>
+                <button type="button" class="btn btn-block btn-google" id="google-button">Login com Google</button>
+                <button type="button" class="btn btn-block btn-facebook" id="facebook-button">
+                    Login com
+                    Facebook
+                </button>
+                <a class="btn btn-link" href="register.html">
+                    Não tem conta? Cadastre-se
+                </a>
+
         </form>
     </section>
     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>

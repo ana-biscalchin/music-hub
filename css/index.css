@@ -26,7 +26,20 @@
 
 /* login */
 
-
+header {
+  /* background-image: url(../img/logo_music_hub.png);
+  background-size: cover;
+	background-position: top center; */
+}
+header h1 {
+	margin-top: 0;
+  margin-bottom: 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+@media(min-width: 768px) {
+}
+@media(min-width: 992px) {
+}
 
 
 
