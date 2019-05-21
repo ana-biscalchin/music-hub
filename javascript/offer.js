@@ -26,4 +26,4 @@ function sendOffer() {
   }
 
   return true;
-}
+};
