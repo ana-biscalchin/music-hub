@@ -28,7 +28,7 @@ function printMusProfileInfo(musicians) {
             </div>
         </div>
     </div>
-</div>`;
+</div>`
     getMusHomeInfofromDb(user.name);
     // document.getElementById('btn-offer-login').addEventListener('click', loginAfterOffer);
     // document.getElementById('btn-offer-register').addEventListener('click', registerAfterOffer);
@@ -53,5 +53,30 @@ function getMusHomeInfofromDb() {
             console.log(musicians);
             console.log(musicians.genres);
             printMusProfileInfo(musicians);
+            filter(musicians);
           });
     }
+
+    function filter(musicians) {
+
+     const area = document.getElementById('paloma')
+     var input = document.querySelector('input');
+     var button = document.querySelector('button');
+     var select = document.querySelector('select');
+     button.addEventListener('click', function () {
+        var val = input.value;
+        var prop = select.value;
+        database.filter(musicians => {
+            console.log(musicians.name)
+            if (val == musicians[prop]) {
+                var div = document.createElement('div');
+     
+                div.innerHTML = template(musicians.name, musicians.instruments, musicians.cost, musicians.places, musicians.genres)
+                area.appendChild(div)
+            }
+        })
+     });
+     }
+     function template(name, instruments, cost, places, genres) {
+        return `<a href= >${name}</a> <p>${instruments}</p> <p>${cost}</p> <p>${places}</p> <p>${genres}</p>`
+     }
