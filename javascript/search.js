@@ -1,3 +1,5 @@
+
+
 const Cronofy = require('cronofy');
 
 const client = new Cronofy({
@@ -8,7 +10,7 @@ const options = {
   tzid: 'Etc/UTC'
 };
 
-function listEvents() {
+function listEvents(user) {
   client.listCalendars(options)
     .then(function (response) {
       let calendars = response.calendars;
@@ -27,6 +29,7 @@ function listEvents() {
 
 }
 listEvents();
+//ouvidor de evento já joga id como parâmetro de user
 
 function ui() {
   const Element = CronofyElements.AvailabilityViewer({
