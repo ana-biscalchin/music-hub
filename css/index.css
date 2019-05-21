@@ -57,14 +57,37 @@ body {
 }
 
 .card {
-    border-radius: 3rem;
+  border-radius: 4.2rem;
+  
+  opacity: 1;
+  box-shadow: 0 2px 15px 1px rgba(189, 184, 184, 0.5);
+}
+
+.card:hover {
+    opacity: 0.5;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    height: 50%;
+}
+
+.img-square-wrapper {
+    width: 30%;
+    margin: 6px;
 }
 
 .card-img {
-    width: 20%;
-    border-radius: 2.25rem;
+    width: 50%;
+    border-radius: 5rem;
     margin: 5px;
 
+}
+
+.text-muted {
+    display: flex;
+    justify-content: center;
 }
 
 

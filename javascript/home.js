@@ -17,11 +17,13 @@ function printMusProfileInfo(musicians) {
                     </div>
                     <div class="card-body">
                         <h4 class="card-title">${musicians.name}</h4>
-                        <p class="card-text">${musicians.description}</p>
+                        <p class="card-text">Estilos: ${musicians.genres}</p>
                     </div>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                <i class="fas fa-dollar-sign"></i>
+                    <small class="text-muted">Média cachê:  ${musicians.cost}</small>
+                    
                 </div>
             </div>
         </div>
