@@ -57,8 +57,8 @@ body {
 }
 
 .card {
-  border-radius: 4.2rem;
-  
+  border-radius: 2.2rem;
+  height: 20vh;
   opacity: 1;
   box-shadow: 0 2px 15px 1px rgba(189, 184, 184, 0.5);
 }
@@ -89,6 +89,11 @@ body {
     display: flex;
     justify-content: center;
 }
+
+h4 {
+    font-size: 1rem;
+}
+
 
 
 
