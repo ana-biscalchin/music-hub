@@ -34,7 +34,7 @@ return `
     // document.getElementById('btn-offer-register').addEventListener('click', registerAfterOffer);
 }
 
-//home
+//home - final
 
 function getMusHomeInfofromDb() {
 
