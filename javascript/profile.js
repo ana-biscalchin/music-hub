@@ -87,6 +87,5 @@ function loginAfterOffer() {
 function registerAfterOffer() {
     let userId = 1;
     window.location.replace('register.html?userId=' + userId + '&userMusId=' + userMusId + '&Offer');
-
 }
 

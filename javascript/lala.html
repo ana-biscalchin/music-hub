@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="nav-bar">
+    <img class="logo-steam" src="assets/tf2.png" alt="Logomarca da Steam">
+    <ul class="icon-list">
+      <li><img class="img-graphic" src="assets/graphic.png" alt="Grafico"></li>
+      <li class="dropdown"><img class="img-filter" src="assets/filter.png" alt="Filtro">
+        <select>
+            <option class="filters option" value="Filtro">Filtro</option>
+            <option class="filters option" value="por Data">por Data</option>
+            <option class="filters option" value="por Título">por Título</option>
+          </li>
+        </select>
+        <!-- <a class="dropdown-filters" data-toggle="dropdown">Filtrar<span class="caret"></span>
+        </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">por Data</a>
+            </li>
+            <li>
+              <a href="#">por Título</a>
+            </li>
+          </ul> -->
+      <li><img class="img-calendar" src="assets/calendar.png" alt="Calendário com lupa"></li>
+    </ul>
+  </nav>
+  <main class="data-set">
+    <section class="team-fortress">
+      <h3>TEAM FORTRESS-2</h3>
+      <img></img>
+      <div class="show-data-set"></div>
+    </section>
+    <aside id="news">
+      <h3>NEWS</h3>
+      <img class="news-team-fortress" src="" alt="">
+      <ul id="list-news">
+      </ul>
+    </aside>
+  </main>
+  <section class="filter">
+    <form class="input-filter">
+      <input class="input-by-title" name="byTitle" type="text" placeholder="Digite um título">
+      <input class="input-by-date" name="byDate" type="text" placeholder="Digite uma data">
+      <input class="input button" type="submit" name="filter" value="Filtrar">
+    </form>
+    <section class="filtered-news">
+      <h3>Resultado do Filtro:</h3>
+      <div id="show-filtered-news"></div>
+    </section>
+  </section>
+  <section class="sort-news">
+    <h3>Notícias (mais recentes):</h3>
+    <div class="show-sort-news"></div>
+  </section>
+  <footer>
+    <h3>Contact</h3>
+  </footer>
+  <script src="./data/steam/steam.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
