@@ -57,7 +57,13 @@ body {
 }
 
 .card {
-    width: 50%;
+    border-radius: 3rem;
+}
+
+.card-img {
+    width: 20%;
+    border-radius: 2.25rem;
+    margin: 5px;
 
 }
 

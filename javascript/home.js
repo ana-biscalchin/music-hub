@@ -6,21 +6,27 @@ window.onload = function () {
 
 function printMusProfileInfo(musicians) {
     document.getElementById('mus-home').innerHTML = `
-    <div class="card mb-3" style="max-width: 540px;">
-    <div class="row no-gutters">
-        <div class="col-md-4">
-            <img src="${musicians.photo}" class="card-img" alt="...">
-        </div>
-        <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">${musicians.name}</h5>
-                <p class="card-text">${musicians.description}</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 mt-3">
+            <div class="card">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper">
+                        <img class="card-img" src="${musicians.photo}" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">${musicians.name}</h4>
+                        <p class="card-text">${musicians.description}</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
             </div>
         </div>
     </div>
-</div>
-    `;
+</div>`;
     getMusHomeInfofromDb(user.name);
     // document.getElementById('btn-offer-login').addEventListener('click', loginAfterOffer);
     // document.getElementById('btn-offer-register').addEventListener('click', registerAfterOffer);
