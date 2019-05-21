@@ -1,36 +1,167 @@
 /* geral */
+body {
+    background-color: #EDEDED;
+}
 
+.nav-header-bg {
+    background-color: #82cbab;
+}
 
+.font-logo {
+    color: #1c1c1c;
+}
 
-
-
-
-
+.logo-img-header {
+    width: 15%;
+}
 
 /* home */
 
-
-
-
-
-
+.menu-group {
+    display: flex;
+    justify-content: space-around
+}
 
 
 /* profile */
+.mus-video-div {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.mus-video-div .mus-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+    max-width: 560px;
+    max-height: 315px;
+}
+
+.mus-profile-img {
+    width: 25vw;
+    border-radius: 50%;
+}
 
 
+.carousel, .mus-home {
+    background-color: #1c1c1c;
+}
+
+.card {
+  border-radius: 2.2rem;
+  height: 20vh;
+  opacity: 1;
+  box-shadow: 0 2px 15px 1px rgba(189, 184, 184, 0.5);
+}
+
+.card:hover {
+    opacity: 0.5;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    height: 50%;
+}
+
+.img-square-wrapper {
+    width: 30%;
+    margin: 6px;
+}
+
+.card-img {
+    width: 50%;
+    border-radius: 5rem;
+    margin: 5px;
+
+}
+
+.text-muted {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 1rem;
+}
 
 
+.btn-ligth-green {
+    color: #1c1c1c;
+    background-color: #82cbab;
+    border-color: #82cbab;
+    font-weight: 600;    
+}
+
+.btn-font-size {
+    font-size: 0.9rem;
+}
 
 
+.mus-description {
+    background-color: #EDEDED;
+}
 
 /* login */
+btn-color{
+  background: #1c1c1c;
+}
+.btn-login, .btn-register{
+  margin: 0 15px;
+}
 
 
+.btn-sign{
+  background-color: #82cbab;
+}
+#input-email, #input-password{
+  border: none; 
+  border-bottom: 1px solid grey;
+}
+header {
+  /* background-image: url(../img/logo_music_hub.png);
+  background-size: cover;
+	background-position: top center; */
+}
+header h1 {
+	margin-top: 0;
+  margin-bottom: 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+
+}
+@media(min-width: 768px) {
+}
+@media(min-width: 992px) {
+}
 
 
+/* Facebook e Google */
+.fa {
+  padding: 20px;
+  font-size: 15%;
+  width: 5%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
 
+.fa:hover {
+  opacity: 0.7;
+}
 
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
 
 
 /* register */
@@ -38,33 +169,72 @@
 
 
 
-
-
-
-
-
-
-
-
 /* offer */
 
+.form-container .message-box {
+  width: 100%;
+  height: auto;
+}
+    
+.form-container .btn.submit-form {
+  margin-top: 2rem;
+  padding: 0.7rem;
+  background: #82cbab;
+  color: #1c1c1c;
+  border-radius: 0px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.form-container .btn.submit-form:focus {
+  outline: 0px;
+  color: white;
+}
 
+.form-container .btn.submit-form:hover {
+  background:#629c83 ;
+  color: #1c1c1c;
+}
 
+body.modal-open #wrap{
+  -webkit-filter: blur(7px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
 
+.modal-backdrop {background: #f7f7f7;}
 
-
-
-
-
-
+.close {
+  font-size: 50px;
+  display:block;
+}
 
 /* mypage */
 
+.btn.btn-status {
+  justify-content: space-evenly;
+  margin: 2rem;
+  padding: 0.7rem;
+  background: #82cbab;
+  color: #1c1c1c;
+  border-radius: 0px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 
+}
 
+.btn.btn-status:hover {
+  background:#629c83 ;
+  color: #1c1c1c;
+}
 
-
-
-
-
-
+.btn.btn-status:active {
+  background:#629c83 ;
+  color: #1c1c1c;
+}
+ 
