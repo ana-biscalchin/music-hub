@@ -15,53 +15,12 @@ body {
     width: 15%;
 }
 
-
-
 /* home */
 
 .menu-group {
     display: flex;
     justify-content: space-around
 }
-/* home */
-/* profile */
-
-.mus-video-div {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 */
-    padding-top: 25px;
-    height: 0;
-}
-
-.mus-video-div .mus-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    max-width: 560px;
-    max-height: 315px;
-}
-
-.mus-profile-img {
-    width: 25vw;
-    border-radius: 50%;
-}
-
-.btn-ligth-green {
-    color: #1c1c1c;
-    background-color: #82cbab;
-    border-color: #82cbab;
-    font-weight: 600;
-}
-
-.btn-font-size {
-    font-size: 0.9rem;
-}
-
-
-
 
 
 /* profile */
@@ -133,12 +92,15 @@ header h1 {
 @media(min-width: 992px) {
 }
 
-/* register */
+ 
+ 
+
+
 /* offer */
 
 .form-container .message-box {
-width: 100%;
-height: auto;
+  width: 100%;
+  height: auto;
 }
     
 .form-container .btn.submit-form {
@@ -176,3 +138,30 @@ body.modal-open #wrap{
   font-size: 50px;
   display:block;
 }
+
+/* mypage */
+
+.btn.btn-status {
+  justify-content: space-evenly;
+  margin: 2rem;
+  padding: 0.7rem;
+  background: #82cbab;
+  color: #1c1c1c;
+  border-radius: 0px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+
+}
+
+.btn.btn-status:hover {
+  background:#629c83 ;
+  color: #1c1c1c;
+}
+
+.btn.btn-status:active {
+  background:#629c83 ;
+  color: #1c1c1c;
+}
+ 
