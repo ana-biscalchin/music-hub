@@ -45,6 +45,50 @@ body {
     border-radius: 50%;
 }
 
+
+.carousel, .mus-home {
+    background-color: #1c1c1c;
+}
+
+.card {
+  border-radius: 2.2rem;
+  height: 20vh;
+  opacity: 1;
+  box-shadow: 0 2px 15px 1px rgba(189, 184, 184, 0.5);
+}
+
+.card:hover {
+    opacity: 0.5;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    height: 50%;
+}
+
+.img-square-wrapper {
+    width: 30%;
+    margin: 6px;
+}
+
+.card-img {
+    width: 50%;
+    border-radius: 5rem;
+    margin: 5px;
+
+}
+
+.text-muted {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+
 .btn-ligth-green {
     color: #1c1c1c;
     background-color: #82cbab;
@@ -55,6 +99,7 @@ body {
 .btn-font-size {
     font-size: 0.9rem;
 }
+
 
 .mus-description {
     background-color: #EDEDED;

@@ -1,43 +1,82 @@
 //DOM
 window.onload = function () {
-    getMusProfileInfofromDb();
+    getMusHomeInfofromDb();
 };
 
-function printMusProfileInfo(user) {
+
+function printMusProfileInfo(musicians) {
     document.getElementById('mus-home').innerHTML = `
-    <div class="card mb-3" style="max-width: 540px;">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="..." class="card-img" alt="...">
+    
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 mt-3">
+            <div class="card">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper">
+                        <img class="card-img" src="${musicians.photo}" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">${musicians.name}</h4>
+                        <p class="card-text">Estilos: ${musicians.genres}</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                <i class="fas fa-dollar-sign"></i>
+                    <small class="text-muted">Média cachê:  ${musicians.cost}</small>
+                    
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-    `;
-    printMusNameHome(user.name);
+</div>`
+    getMusHomeInfofromDb(user.name);
     // document.getElementById('btn-offer-login').addEventListener('click', loginAfterOffer);
     // document.getElementById('btn-offer-register').addEventListener('click', registerAfterOffer);
 }
 
-function printMusNameHome(name) {
-    document.getElementById('mus-home').innerHTML = name;
-}
+//home
 
-//funções home
-let userMusId = "m02";
-
-function getMusProfileInfofromDb() {
+function getMusHomeInfofromDb() {
     console.log('oi');
-    database.ref('users_musicians/' + userMusId).once('value')
+    database.ref('users_musicians/').once('value')
         .then(function (snapshot) {
-            let user = snapshot.val();
-            printMusProfileInfo(user);
+            // console.log(snapshot.val())
+            // let user = snapshot.val();
+            searchMus(snapshot);
+            
         });
-}
+ }
+ 
+ function searchMus(snapshot) {
+        snapshot.forEach(function(childSnapshot) {
+            let musicians = childSnapshot.val();
+            console.log(musicians);
+            console.log(musicians.genres);
+            printMusProfileInfo(musicians);
+            filter(musicians);
+          });
+    }
 
+    function filter(musicians) {
+
+     const area = document.getElementById('paloma')
+     var input = document.querySelector('input');
+     var button = document.querySelector('button');
+     var select = document.querySelector('select');
+     button.addEventListener('click', function () {
+        var val = input.value;
+        var prop = select.value;
+        database.filter(musicians => {
+            console.log(musicians.name)
+            if (val == musicians[prop]) {
+                var div = document.createElement('div');
+     
+                div.innerHTML = template(musicians.name, musicians.instruments, musicians.cost, musicians.places, musicians.genres)
+                area.appendChild(div)
+            }
+        })
+     });
+     }
+     function template(name, instruments, cost, places, genres) {
+        return `<a href= >${name}</a> <p>${instruments}</p> <p>${cost}</p> <p>${places}</p> <p>${genres}</p>`
+     }
