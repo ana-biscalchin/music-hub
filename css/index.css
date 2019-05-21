@@ -61,6 +61,8 @@ body {
 /* register */
 /* offer */
 
+
+
 .form-container .message-box {
 width: 100%;
 height: auto;
@@ -101,3 +103,35 @@ body.modal-open #wrap{
   font-size: 50px;
   display:block;
 }
+
+
+
+
+
+/* mypage */
+
+.btn.btn-status {
+  justify-content: space-evenly;
+  margin: 2rem;
+  padding: 0.7rem;
+  background: #82cbab;
+  color: #1c1c1c;
+  border-radius: 0px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+
+}
+
+.btn.btn-status:hover {
+  background:#629c83 ;
+  color: #1c1c1c;
+}
+
+.btn.btn-status:active {
+  background:#629c83 ;
+  color: #1c1c1c;
+}
+
+
