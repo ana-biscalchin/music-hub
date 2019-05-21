@@ -5,7 +5,7 @@ window.onload = function () {
 
 
 function printMusProfileInfo(musicians) {
-    document.getElementById('mus-home').innerHTML = `
+return `
     
 <div class="container-fluid">
     <div class="row">
@@ -29,7 +29,7 @@ function printMusProfileInfo(musicians) {
         </div>
     </div>
 </div>`
-    getMusHomeInfofromDb(user.name);
+    // getMusHomeInfofromDb(user.name);
     // document.getElementById('btn-offer-login').addEventListener('click', loginAfterOffer);
     // document.getElementById('btn-offer-register').addEventListener('click', registerAfterOffer);
 }
@@ -37,36 +37,45 @@ function printMusProfileInfo(musicians) {
 //home
 
 function getMusHomeInfofromDb() {
-    console.log('oi');
+
     database.ref('users_musicians/').once('value')
         .then(function (snapshot) {
-            // console.log(snapshot.val())
-            // let user = snapshot.val();
             searchMus(snapshot);
-            
+
         });
  }
  
  function searchMus(snapshot) {
+    
         snapshot.forEach(function(childSnapshot) {
             let musicians = childSnapshot.val();
-            console.log(musicians);
-            console.log(musicians.genres);
+            const div = document.createElement('div');
+            div.innerHTML = printMusProfileInfo(musicians);
+            document.getElementById('mus-home').appendChild(div);
+           
             printMusProfileInfo(musicians);
             filter(musicians);
           });
     }
 
-    function filter(musicians) {
-
-     const area = document.getElementById('paloma')
-     var input = document.querySelector('input');
-     var button = document.querySelector('button');
+    var input = document.querySelector('#leticia');
+     var button = document.querySelector('#bruna');
      var select = document.querySelector('select');
+
+    function filter(musicians) {
+        let data = [musicians];
+        data.push(musicians)
+        
+        console.log(data)
+
+   
+    
      button.addEventListener('click', function () {
+    
+         console.log(musicians)
         var val = input.value;
         var prop = select.value;
-        database.filter(musicians => {
+        musicians.filter(musicians => {
             console.log(musicians.name)
             if (val == musicians[prop]) {
                 var div = document.createElement('div');
