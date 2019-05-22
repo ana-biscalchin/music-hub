@@ -1,12 +1,12 @@
 # Music Hub
 
-Squad:
-*Ana Carolina Biscalchin*
-*Bruna Gabriele de Paula*
-*Jéssica Ferreira da Silva*
-*Letícia Oliveira*
-*Marina Keunecke*
-*Yara Guimarães de Oliveira*
+Squad:<br>
+*Ana Carolina Biscalchin* <br>
+*Bruna Gabriele de Paula* <br>
+*Jéssica Ferreira da Silva* <br>
+*Letícia Oliveira* <br>
+*Marina Keunecke* <br>
+*Yara Guimarães de Oliveira* <br>
 
 [Link da aplicação](https://ana-biscalchin.github.io/music-hub/)
 
