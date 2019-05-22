@@ -123,4 +123,14 @@ Problemas detectados no teste de usabilidade:
 * XX?.
 * XX?.
 
+## Roadmap
+
+* Músicos disponíveis no momento
+* Incluir músicos infantis
+* Modo noturno
+* Página do músico: minha agenda, meus contatos, meu portfolio e mensagens
+* Avaliação dos músicos
+* Georreferenciamento
+* Login único, onde o músico possa oferecer seu trabalho, bem como procurar um músico também (ex: precisa de um baixista para a banda dele).
+* Incluir versão premium paga. Onde os resultados dos músicos ficam em primeiro lugar.
 
