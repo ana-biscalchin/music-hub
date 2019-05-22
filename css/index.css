@@ -68,7 +68,7 @@ body {
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
-    height: 50%;
+    /* height: 50%; */
 }
 
 .img-square-wrapper {
@@ -242,3 +242,42 @@ body.modal-open #wrap{
   color: #1c1c1c;
 }
  
+.card-instruments {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+.card-places {
+  margin: 0;
+  padding: 0;
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.card-title {
+  padding-bottom: 0;
+}
+
+.logo-img-card {
+  max-width: 100%;
+  width: 20vw;
+  border-radius: 50%;
+}
+
+.card-margin {
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.bg-white {
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card-wi {
+  width: 80%;
+}
