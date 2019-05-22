@@ -6,10 +6,14 @@ body {
 .nav-header-bg {
     background-color: #82cbab;
 }
-
-.font-logo {
-    color: #1c1c1c;
+.navbar {
+  background-color: #82cbab;
 }
+
+
+/* .font-logo {
+    color: #1c1c1c;
+} */
 
 .logo-img-header {
     width: 15%;
