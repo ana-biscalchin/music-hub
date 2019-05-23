@@ -31,6 +31,7 @@ Utilizamos a ferramenta **Trello**.
 Dividimos o projeto em mini partes e as mesmas foram divididas entre as integrantes. 
 Foram priorizadas utilizando 2 critérios principais: o que era necessário para desenvolver o _MVP_ do site e o que era "requisito obrigatório" no projeto, neste caso, consumir uma API REST.
 [Music Hub](https://trello.com/b/X9juFZRZ/music-hub)
+![Trello](/asserts/docs/trello_music_hub.png)
 
 ## Checklist
 
@@ -44,25 +45,37 @@ Foram priorizadas utilizando 2 critérios principais: o que era necessário para
 * [X] Utilizar API REST.
 * [X] Utilizar Eslint para guia de estilo.
 * [X] Teste do código: Utilizar Mocha + Chai ou Wallaby.
-* [X] UX: ?
-* [X] UI: ?
+* [X] UX: Design Sprint (Problema, Solução/Ideia, Análise da Concorrência, Prototipação e Testes com Usuários)
+_
+## Personas - Lean UX
 
-
-## Personas
-
-![André](docs/person-bruno.png)
-![Ariel](docs/person-neyde.png)
-![Carlos](docs/person-gabriel.png)
-![Fernando](docs/person-julia.png)
-![Júlia](docs/person-julia.png)
-![Luisa](docs/person-julia.png)
-
+![Ariel](asserts/docs/ariel.png)
+![Carlos](asserts/docs/carlos.png)
+![Júlia](asserts/docs/julia.png)
+![Luisa](asserts/docs/luisa.png)
 
 ## Definição do produto
 
 **Music Hub** é um site para contratantes encontrarem músicos. Onde possibilitará buscas por gênero musical e agenda do músico.
 O objetivo da aplicação é ser construído em "mobile first" e oferecer uma interface intuitiva que proporcione ao usuário uma ferramenta de consulta e que possa encontrar e contratar músicos para o seu evento.
-API utilizada: Cronofy.
+`API utilizada: Cronofy`.
+[Cronofy](https://www.cronofy.com/)
+`Definição do Produto: Business Model Canvas`.
+![Business Model Canvas](docs/canvas.pdf)
+
+## UX
+
+Tentamos compreender os principais problemas relacionados a contratação de músicos para um determinado evento e a partir disso, entedemos quem eram nossos _steakholders_ e o que eles necessitavam.
+Dentro do prazo fornecido, iniciamos o processo, levando em conta as limitações técnicas.
+- Informações sobre o problema atual
+- Análise de concorrência
+- Personas de usuários
+- Mapas de afinidade
+- Metodologias para mapear problemas e soluções
+- Definição do nome do site utilizando `Brainstorm`.
+- Definição do layout utilizando `Crazy Eights`.
+- Heurística
+
 ## Pesquisa
 
 -Músicos
@@ -74,7 +87,7 @@ API utilizada: Cronofy.
 
 ## Testes de Usabilidade
 Problemas detectados no teste de usabilidade:
-* XX?.
+* Home não "apresentava" o site e qual era a proposta dele de maneira clara.
 * XX?.
 
 ## Roadmap
