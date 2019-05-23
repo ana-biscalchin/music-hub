@@ -1,6 +1,7 @@
 document.querySelector('.submit-form').addEventListener("click", sendOffer)
 
 function sendOffer() {
+  goHome();
   if (propose.tx_nome.value == "" || propose.tx_nome.value.length < 8) {
     alert("Preencha campo NOME corretamente!");
     propose.tx_nome.focus();
@@ -27,3 +28,11 @@ function sendOffer() {
 
   return true;
 };
+
+function goHome() {
+  document.querySelector('#go-home').addEventListener('click', locationHome);
+}
+
+function locationHome() {
+  window.location =  'home.html';
+}
