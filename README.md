@@ -16,7 +16,7 @@ Projeto desenvolvido no curso de Desenvolvedoras Front-End para o Bootcamp **Lab
 
 * [Organização](#Organização)
 * [Checklist](#Checklist)
-* [Personas](#Personas)
+* [Personas](#Personas-Lean-UX)
 * [Definição do produto](#Definição-do-produto)
 * [UX](#UX)
 * [Protótipo](#Protótipo)
@@ -47,7 +47,7 @@ Foram priorizadas utilizando 2 critérios principais: o que era necessário para
 * [X] Teste do código: Utilizar Mocha + Chai ou Wallaby.
 * [X] UX: Design Sprint (Problema, Solução/Ideia, Análise da Concorrência, Prototipação e Testes com Usuários)
 _
-## Personas - Lean UX
+## Personas Lean UX
 
 ![Ariel](asserts/docs/ariel.png)
 ![Carlos](asserts/docs/carlos.png)
