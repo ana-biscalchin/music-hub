@@ -8,7 +8,7 @@ Squad:<br>
 *Marina Keunecke* <br>
 *Yara Guimarães de Oliveira* <br>
 
-[Link da aplicação](https://ana-biscalchin.github.io/music-hub/){:target="_blank"}
+[Link da aplicação](https://ana-biscalchin.github.io/music-hub/)
 
 Projeto desenvolvido no curso de Desenvolvedoras Front-End para o Bootcamp **Laboratória** - campus SP - Brasil.
 
