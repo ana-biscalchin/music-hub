@@ -8,7 +8,7 @@ Squad:<br>
 *Marina Keunecke* <br>
 *Yara Guimarães de Oliveira* <br>
 
-[Link da aplicação](https://ana-biscalchin.github.io/music-hub/)
+[Link da aplicação](https://ana-biscalchin.github.io/music-hub/){:target="_blank"}
 
 Projeto desenvolvido no curso de Desenvolvedoras Front-End para o Bootcamp **Laboratória** - campus SP - Brasil.
 
@@ -19,6 +19,7 @@ Projeto desenvolvido no curso de Desenvolvedoras Front-End para o Bootcamp **Lab
 * [Personas](#Personas-Lean-UX)
 * [Definição do produto](#Definição-do-produto)
 * [UX](#UX)
+* [Pesquisa](#Pesquisa)
 * [Protótipo](#Protótipo)
 * [Testes de usabilidade](#Testes-de-usabilidade)
 * [Roadmap](#Roadmap)
@@ -30,7 +31,7 @@ Utilizamos a ferramenta **Trello**.
 
 Dividimos o projeto em mini partes e as mesmas foram divididas entre as integrantes. 
 Foram priorizadas utilizando 2 critérios principais: o que era necessário para desenvolver o _MVP_ do site e o que era "requisito obrigatório" no projeto, neste caso, consumir uma API REST. <br>
-[Music Hub](https://trello.com/b/X9juFZRZ/music-hub) <br>
+[Music Hub](https://trello.com/b/X9juFZRZ/music-hub){:target="_blank"} <br>
 ![Trello](/asserts/docs/trello_music_hub.png)
 
 ## Checklist
@@ -81,9 +82,12 @@ Dentro do prazo fornecido, iniciamos o processo, levando em conta as limitaçõe
 -Músicos. <br>
 -Contratantes reais. <br>
 -Concorrência (sites que oferecem serviços semelhantes). <br>
+[Pesquisa com contratantes](https://bruna256.typeform.com/report/URGIgy/9czVW1cIEixmj4Ql){:target="_blank"}
+[Pesquisa com músicos](https://bruna256.typeform.com/report/C9TmG1/D7pxTojVxShHGHho){:target="_blank"}
+
 
 ## Protótipo
-[Link do 1º Protótipo - Marvel](https://marvelapp.com/515cb20/screen/56895668)<br>
+[Link do 1º Protótipo - Marvel](https://marvelapp.com/515cb20/screen/56895668){:target="_blank"} <br>
 
 ## Testes de Usabilidade
 Problemas detectados no teste de usabilidade:
