@@ -82,8 +82,8 @@ Dentro do prazo fornecido, iniciamos o processo, levando em conta as limitaçõe
 
 ## Pesquisa
 
--Músicos: [Pesquisa com músicos](https://bruna256.typeform.com/report/C9TmG1/D7pxTojVxShHGHho) <br>
--Contratantes reais: [Pesquisa com contratantes](https://bruna256.typeform.com/report/URGIgy/9czVW1cIEixmj4Ql) <br>
+-Músicos: [Pesquisa com músicos.](https://bruna256.typeform.com/report/C9TmG1/D7pxTojVxShHGHho) <br>
+-Contratantes reais: [Pesquisa com contratantes.](https://bruna256.typeform.com/report/URGIgy/9czVW1cIEixmj4Ql) <br>
 -Concorrência (sites que oferecem serviços semelhantes). <br>
 
 ## Protótipo
@@ -92,7 +92,6 @@ Dentro do prazo fornecido, iniciamos o processo, levando em conta as limitaçõe
 ## Testes de Usabilidade
 Problemas detectados no teste de usabilidade:
 * Home não "apresentava" o site e qual era a proposta dele de maneira clara.
-* XX?.
 
 ## Roadmap
 
