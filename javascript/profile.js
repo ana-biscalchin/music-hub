@@ -45,7 +45,7 @@ function printMusProfileInfo(user) {
             <button type="button" class="btn btn-dark mr-2 btn-font-size" data-toggle="modal" data-target="#exampleModalCenter">
                 AGENDA
             </button>            
-            <button type="button" class="btn btn-secondary btn-ligth-green" data-toggle="modal" data-target="#exampleModalCenterOffer">
+            <button id="btn-offer" type="button" class="btn btn-secondary btn-ligth-green">
                 FAZER UMA PROPOSTA
             </button>
             
@@ -60,8 +60,7 @@ function printMusProfileInfo(user) {
     </div>
     `;
     printMusNameAgenda(user.name);
-    document.getElementById('btn-offer-login').addEventListener('click', loginAfterOffer);
-    document.getElementById('btn-offer-register').addEventListener('click', registerAfterOffer);
+    document.getElementById('btn-offer').addEventListener('click',goOffer);
 }
 
 function printMusNameAgenda(name) {
@@ -79,13 +78,8 @@ function getMusProfileInfofromDb() {
         });
 }
 
-function loginAfterOffer() {
+function goOffer() {
     let userId = 1;
-    window.location.replace('login.html?userId=' + userId + '&userMusId=' + userMusId + '&Offer');
-}
-
-function registerAfterOffer() {
-    let userId = 1;
-    window.location.replace('register.html?userId=' + userId + '&userMusId=' + userMusId + '&Offer');
+    window.location = 'offer.html';
 }
 
