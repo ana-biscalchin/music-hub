@@ -40,6 +40,7 @@ Foram priorizadas utilizando 2 critérios principais: o que era necessário para
 * [X] Inclui esboço da solução (protótipo de baixa fidelidade e de alta fidelidade, se houver) no
   `README.md`.
 * [X] Criar um formulário de pesquisa e encaminhar para o público alvo, publicar o resultado no `README.md`.
+* [X] Fazer _mapa de afinidades_.
 * [X] Inclui a lista de problema detectados através dos testes de usabilidade
   no `README.md`.
 * [X] Inclui _Definição de produto_ clara e informativa no `README.md`.
@@ -68,14 +69,16 @@ O objetivo da aplicação é ser construído em "mobile first" e oferecer uma in
 
 Tentamos compreender os principais problemas relacionados a contratação de músicos para um determinado evento e a partir disso, entedemos quem eram nossos _steakholders_ e o que eles necessitavam.
 Dentro do prazo fornecido, iniciamos o processo, levando em conta as limitações técnicas.
-- Informações sobre o problema atual
-- Análise de concorrência
-- Personas de usuários
-- Mapas de afinidade
-- Metodologias para mapear problemas e soluções
+- Informações sobre o problema atual.
+- Análise de concorrência.
+- Personas de usuários.
+- Mapa de afinidades.
+- Metodologias para mapear problemas e soluções.
 - Definição do nome do site utilizando `Brainstorm`.
 - Definição do layout utilizando `Crazy Eights`.
-- Heurística
+- Heurística.
+
+[Mapa de afinidades:](asserts/docs/mapa_de_afinidades.jpg) <br>
 
 ## Pesquisa
 
