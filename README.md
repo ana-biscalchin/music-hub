@@ -57,11 +57,11 @@ _
 ## Definição do produto
 
 **Music Hub** é um site para contratantes encontrarem músicos. Onde possibilitará buscas por gênero musical e agenda do músico.
-O objetivo da aplicação é ser construído em "mobile first" e oferecer uma interface intuitiva que proporcione ao usuário uma ferramenta de consulta e que possa encontrar e contratar músicos para o seu evento.
+O objetivo da aplicação é ser construído em "mobile first" e oferecer uma interface intuitiva que proporcione ao usuário uma ferramenta de consulta e que possa encontrar e contratar músicos para o seu evento. <br>
 `API utilizada: Cronofy`.
 [Cronofy](https://www.cronofy.com/) <br>
 `Definição do Produto: Business Model Canvas`. <br>
-![Business Model Canvas](asserts/docs/canvas.pdf) <br>
+![Business Model Canvas](https://docs.google.com/spreadsheets/d/1PPFSmGrrzhP1jlaPla6tXW9oSxoant3-hqQvmxgSu0U/edit?usp=sharing) <br>
 
 ## UX
 
