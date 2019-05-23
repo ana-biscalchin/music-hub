@@ -72,13 +72,13 @@ Dentro do prazo fornecido, iniciamos o processo, levando em conta as limitaçõe
 - Informações sobre o problema atual.
 - Análise de concorrência.
 - Personas de usuários.
-- Mapa de afinidades.
+- [Mapa de afinidades.](asserts/docs/mapa_de_afinidades.jpg) <br>
 - Metodologias para mapear problemas e soluções.
 - Definição do nome do site utilizando `Brainstorm`.
 - Definição do layout utilizando `Crazy Eights`.
 - Heurística.
 
-[Mapa de afinidades:](asserts/docs/mapa_de_afinidades.jpg) <br>
+
 
 ## Pesquisa
 
