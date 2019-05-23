@@ -29,8 +29,8 @@ Projeto desenvolvido no curso de Desenvolvedoras Front-End para o Bootcamp **Lab
 Utilizamos a ferramenta **Trello**.
 
 Dividimos o projeto em mini partes e as mesmas foram divididas entre as integrantes. 
-Foram priorizadas utilizando 2 critérios principais: o que era necessário para desenvolver o _MVP_ do site e o que era "requisito obrigatório" no projeto, neste caso, consumir uma API REST.
-[Music Hub](https://trello.com/b/X9juFZRZ/music-hub)
+Foram priorizadas utilizando 2 critérios principais: o que era necessário para desenvolver o _MVP_ do site e o que era "requisito obrigatório" no projeto, neste caso, consumir uma API REST. <br>
+[Music Hub](https://trello.com/b/X9juFZRZ/music-hub) <br>
 ![Trello](/asserts/docs/trello_music_hub.png)
 
 ## Checklist
@@ -59,9 +59,9 @@ _
 **Music Hub** é um site para contratantes encontrarem músicos. Onde possibilitará buscas por gênero musical e agenda do músico.
 O objetivo da aplicação é ser construído em "mobile first" e oferecer uma interface intuitiva que proporcione ao usuário uma ferramenta de consulta e que possa encontrar e contratar músicos para o seu evento.
 `API utilizada: Cronofy`.
-[Cronofy](https://www.cronofy.com/)
-`Definição do Produto: Business Model Canvas`.
-![Business Model Canvas](docs/canvas.pdf)
+[Cronofy](https://www.cronofy.com/) <br>
+`Definição do Produto: Business Model Canvas`. <br>
+![Business Model Canvas](asserts/docs/canvas.pdf) <br>
 
 ## UX
 
@@ -78,9 +78,9 @@ Dentro do prazo fornecido, iniciamos o processo, levando em conta as limitaçõe
 
 ## Pesquisa
 
--Músicos
--Contratantes reais
--Concorrência (sites que oferecem serviços semelhantes)
+-Músicos. <br>
+-Contratantes reais. <br>
+-Concorrência (sites que oferecem serviços semelhantes). <br>
 
 ## Protótipo
 [Link do 1º Protótipo - Marvel](https://marvelapp.com/515cb20/screen/56895668)<br>
