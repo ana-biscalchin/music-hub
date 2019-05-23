@@ -85,9 +85,8 @@ Dentro do prazo fornecido, iniciamos o processo, levando em conta as limitaçõe
 -Músicos. <br>
 -Contratantes reais. <br>
 -Concorrência (sites que oferecem serviços semelhantes). <br>
-[Pesquisa com contratantes](https://bruna256.typeform.com/report/URGIgy/9czVW1cIEixmj4Ql)
+[Pesquisa com contratantes](https://bruna256.typeform.com/report/URGIgy/9czVW1cIEixmj4Ql) <br>
 [Pesquisa com músicos](https://bruna256.typeform.com/report/C9TmG1/D7pxTojVxShHGHho)
-
 
 ## Protótipo
 [Link do 1º Protótipo - Marvel](https://marvelapp.com/515cb20/screen/56895668)<br>
